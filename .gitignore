@@ -1,0 +1,36 @@
+# 权重文件
+*.pt
+*.onnx
+*.engine
+
+# 数据集（太大不跟踪）
+dataset/
+dataset_moto/
+
+# 训练结果（权重、图片太大，精选图见 results/）
+runs/
+
+# 提交快照与压缩包
+123/
+*.zip
+*.rar
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Node（gen_pptx.js 用，只保留 package.json）
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+
+# 输出视频（太大）
+*.mp4
+*.avi
+
+# 系统文件
+.DS_Store
+Thumbs.db
